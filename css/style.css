@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  color: antiquewhite;
+  background-image: url("../Assets/pexels-philipp-deus-5725078.jpg");
+}
+
+.card-body {
+
+  border: 3px ;
+  border-style: solid;
+  border-color: antiquewhite;
+  color: antiquewhite;
+  text-align: center;
+  margin:5px;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+#dailyForecast {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.card-body-main{
+
+  border: 3px ;
+  border-style: solid;
+  border-color: black;
+  color: antiquewhite;
+  border-color: antiquewhite;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+#searchBox{
+  float: left;
+  width: 19%;
+  margin-left: 1%
+}
+
+.searchBar,
+#searchBtn,
+#searchInput {
+  font-size: x-large;
+  text-align: center;
+  width: 85%;
+  margin: 5px;
+  border-radius: 12px;
+  
+}
+
+.searchBar{
+  font-weight: bolder;
+}
+
+.historialTitle{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-right: 5%;
+}
+
+#searchBtn{
+  border-radius: 12px;
+}
+
+#weatherBox{
+float: right;
+width: 77%;
+margin-left: 1%;
+margin-right: 2%;
+}
+
+.titleDays {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.mainTitle{
+  text-align: center;
+  margin-left: 19%;
+  font-size: 50px;
+}
+
+#city-past{
+  width: 85%;
+  margin: 2px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width:1389px) {
+  .card-body {
+
+  border: 3px ;
+  border-style: solid;
+  border-color: antiquewhite;
+  color: antiquewhite;
+  text-align: center;
+  margin:5px;
+  width: 95%;
+  font-size: 90%;
+  border-radius: 12px;
+  color:antiquewhite
+}
+
+#dailyForecast {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.day-time{
+  font-size: 80%;
+} 
+
+.card-body-main{
+
+  width: 99%;
+}
+
+}
+
+@media screen and (max-width:959px) {
+  .card-body {
+
+  border: 3px ;
+  border-style: solid;
+  border-color: antiquewhite;
+  color: antiquewhite;
+  text-align: center;
+  margin:5px;
+  width: 80%;
+  font-size: 90%;
+  border-radius: 12px;
+  color:blue;
+}
+
+#dailyForecast {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.day-time{
+  font-size: 85%;
+} 
+
+.card-body-main{
+
+  width: 99%;
+}
+
+.card-body {
+
+  border: 3px ;
+  border-style: solid;
+  border-color: antiquewhite;
+  color: antiquewhite;
+  text-align: center;
+  margin:5px;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+
+}
