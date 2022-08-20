@@ -41,10 +41,18 @@ Developers are often tasked with retrieving data from another application's API 
     THEN I am presented with the last searched city forecast 
 
 
-### Visuals:
+### Usage:
 
+![Screenshot of load page](./Assets/Forecast.jpg)
 
-![Screenshot of load page](./Assets//Weather%20Dashboard/Assets/Forecast.jpg)
+This is the main page for the aplication, in this we can found on the left side two elements, at the top the search bar, in the which one we'll type for the city we are looking for.
+
+![Usage of the page components](./Assets/SearchBAr.png)
+
+And at the bottom the history of the places we already search for. 
+
+![Usage of the page components](./Assets/Historial.jpg)
+
 
 
 ## Data
