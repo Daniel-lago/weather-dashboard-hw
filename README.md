@@ -44,7 +44,7 @@ Developers are often tasked with retrieving data from another application's API 
 ### Visuals:
 
 
-![Screenshot of load page](./Weather%20Dashboard/Assets/Forecast.jpg)
+![Screenshot of load page](./Assets//Weather%20Dashboard/Assets/Forecast.jpg)
 
 
 ## Data
